@@ -1,0 +1,19 @@
+body{
+	color:red;
+
+}
+img{
+	height:500px;
+
+}
+@keyframes dank{
+	0%{color:blue;}
+	25%{color:red;}
+	50%{color:green;}
+	75%{color:orange;}
+	100%{color:blue;}	
+}
+#thisAnimates{
+	animation: dank 4s ease infinite;
+
+}

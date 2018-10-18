@@ -1,0 +1,36 @@
+body{
+	color:#01134b;
+	/*
+	makes all the text red
+	*/
+	cursor:pointer;
+	font-family: 'K2D', sans-serif;
+	background-color: #d3ffce;
+	background-image: url(https://i.pinimg.com/originals/3d/f8/a1/3df8a1ac8013a3a269d63d71304fc059.jpg);
+}
+h1{
+	font-style: 20px;
+	/*font-family: 'Comic Sans MS';*/
+	/*font-family: 'K2D', sans-serif;*/
+	/*font-family: 'Mali', cursive;*/
+	font-family: 'Dancing Script', cursive;
+
+}
+img {
+	height:200px;
+	border-radius: 20% 30% / 10% 12%;
+}
+.yo{
+	color:green;
+}
+#last{
+	color:purple;
+	animation: fire 4s ease infinite;
+}
+@keyframes fire{
+	0%{color:red; transform: translate(0px,0px);}
+	25%{color:yellow;transform: translate(50px,0px);}
+	50%{color:blue;transform: translate(100px,0px);}
+	75%{color:red;transform: translate(50px,0px);}
+	100%{color:purple; transform: translate(0px,0px);}
+}
